@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/4.jpeg);
+}
+
+.container {
+	width: 400px;
+	height: 370px;
+	background: rgba(225, 225, 225, 0.3);
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 60px;
+}
+
+h1 {
+	margin-left: 70px;
+	margin-top: 50px;
+	color: #f8f0ff
+}
+
+
+.dws {
+	width: 250px;
+	height: 40px;
+	padding-left: 5px;
+	border: none;
+	background: rgba(225, 225, 225, 0.7);
+}
+
+.dws1 {
+	border-radius: 2px;
+	margin-left: 70px;
+	margin-top: 60px;
+}
+
+.dws2 {
+	border-radius: 2px;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+
+.btn {
+	width: 100px;
+	height: 40px;
+	border-radius: 50px;
+	margin-left: 70px;
+	margin-top: 30px;
+	border: none;
+	cursor: pointer;
+	background: rgb(242, 128, 1);
+	color: #f8f0ff;
+	transition: .5s;
+}
+
+.btn:hover {
+	background: rgb(255, 170, 20);
+	transform: scale(1.1);
+}
